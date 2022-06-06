@@ -16,7 +16,7 @@ SHP_APP='shprofile'
 SHP_VERSION='4.9-SNAPSHOT'
 
 # Associated files
-SHP_HOME="$HOME/.shprofile"
+SHP_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/shprofile"
 SHP_PROFILES_HOME="$SHP_HOME/profiles"
 SHP_CURRENT_PROFILE_KEEPER="$SHP_HOME/current"
 
